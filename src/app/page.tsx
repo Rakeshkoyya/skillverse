@@ -165,7 +165,7 @@ function FourLSection() {
     },
     {
       letter: "L",
-      title: "Love",
+      title: "Liberate",
       subtitle: "Find Your Passion",
       description: "Discover what truly excites you through exploration and self-reflection.",
       color: "bg-red-500"
