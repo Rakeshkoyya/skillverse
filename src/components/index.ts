@@ -7,3 +7,4 @@ export { default as SubscriptionForm } from './SubscriptionForm';
 export { default as EduWarriorApplicationForm } from './EduWarriorApplicationForm';
 export { default as ContactFormTabs } from './ContactFormTabs';
 export { default as SubscribeSection } from './SubscribeSection';
+export { default as WebinarRegistrationForm } from './WebinarRegistrationForm';

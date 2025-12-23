@@ -1,5 +1,8 @@
 import { Metadata } from 'next';
-import { Button, Section, ContactFormTabs } from '@/components';
+import Link from 'next/link';
+import { Button, Section } from '@/components';
+// Commented out for webinar - uncomment after webinar ends
+// import { ContactFormTabs } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Contact Us - Skillverse',
@@ -47,7 +50,7 @@ export default function ContactPage() {
                 <svg className="w-6 h-6 text-[#1e3a5f] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                <span className="text-gray-700">Date to be announced</span>
+                <span className="text-gray-700 font-semibold">29 December 2025</span>
               </div>
               <div className="flex items-center">
                 <svg className="w-6 h-6 text-[#1e3a5f] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,9 +62,20 @@ export default function ContactPage() {
                 <svg className="w-6 h-6 text-[#1e3a5f] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                 </svg>
-                <span className="text-gray-700">Live on Zoom / YouTube</span>
+                <span className="text-gray-700">Live Online Webinar</span>
               </div>
             </div>
+            
+            {/* Register Button - redirects to webinar page */}
+            <Link 
+              href="/webinar"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold rounded-xl hover:from-green-700 hover:to-green-800 transition-all shadow-lg hover:shadow-xl"
+            >
+              Register for FREE Webinar
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
           </div>
           
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl p-8">
@@ -88,7 +102,9 @@ export default function ContactPage() {
         </div>
       </Section>
 
-      {/* Contact Form */}
+      {/* Contact Form - COMMENTED OUT DURING WEBINAR PERIOD */}
+      {/* Uncomment the section below after webinar ends on 29 December 2025 */}
+      {/*
       <Section background="light" id="form">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -101,6 +117,44 @@ export default function ContactPage() {
           </div>
 
           <ContactFormTabs />
+        </div>
+      </Section>
+      */}
+
+      {/* Webinar Registration CTA - Remove after webinar */}
+      <Section background="light" id="form">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="bg-gradient-to-br from-[#1e3a5f] to-[#2a4a73] rounded-3xl p-8 md:p-12 text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              🎯 Don't Miss This Webinar!
+            </h2>
+            <p className="text-xl text-white/90 mb-6 max-w-2xl mx-auto">
+              India's First Skill-Focused Awareness Webinar for Parents. Discover why marks are no longer enough for your child's success.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 mb-8">
+              <div className="bg-white/10 px-4 py-2 rounded-lg">
+                <span className="text-2xl mr-2">📅</span>
+                <span className="font-semibold">29 December 2025</span>
+              </div>
+              <div className="bg-white/10 px-4 py-2 rounded-lg">
+                <span className="text-2xl mr-2">🎥</span>
+                <span className="font-semibold">Live Online</span>
+              </div>
+              <div className="bg-white/10 px-4 py-2 rounded-lg">
+                <span className="text-2xl mr-2">🆓</span>
+                <span className="font-semibold">FREE Entry</span>
+              </div>
+            </div>
+            <Link 
+              href="/webinar"
+              className="inline-flex items-center px-10 py-4 bg-white text-[#1e3a5f] font-bold rounded-xl hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl text-lg"
+            >
+              Register Now - It's FREE!
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </Section>
 

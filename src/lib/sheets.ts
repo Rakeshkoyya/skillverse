@@ -124,3 +124,27 @@ export function formatEduWarriorData(data: any) {
     availability: data.availability,
   };
 }
+
+/**
+ * Format Webinar Registration data for Google Sheets
+ */
+export function formatWebinarRegistrationData(data: any) {
+  return {
+    timestamp: new Date().toISOString(),
+    parentName: data.parentName,
+    mobile: data.mobile,
+    email: data.email,
+    city: data.city,
+    state: data.state,
+    numberOfChildren: data.numberOfChildren,
+    childAgeGroup: data.childAgeGroup,
+    educationStage: data.educationStage,
+    parentConcerns: Array.isArray(data.parentConcerns) ? data.parentConcerns.join(', ') : data.parentConcerns,
+    schoolSystemOpinion: data.schoolSystemOpinion,
+    lifeSkillsAwareness: data.lifeSkillsAwareness,
+    skillsNeeded: Array.isArray(data.skillsNeeded) ? data.skillsNeeded.join(', ') : data.skillsNeeded,
+    isDecisionMaker: data.isDecisionMaker,
+    enrollmentReadiness: data.enrollmentReadiness,
+    consent: data.consent ? 'Yes' : 'No',
+  };
+}
