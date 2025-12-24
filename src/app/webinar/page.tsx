@@ -3,7 +3,7 @@ import WebinarRegistrationForm from '@/components/WebinarRegistrationForm';
 
 export const metadata: Metadata = {
   title: 'SKILLVERSE Webinar Registration | India\'s First Skill-Focused Awareness Webinar for Parents',
-  description: 'Register for India\'s first skill-focused awareness webinar for parents. Discover why marks are no longer enough and how the right skills shape your child\'s future. Date: 29 December 2025.',
+  description: 'Register for India\'s first skill-focused awareness webinar for parents. Discover why marks are no longer enough and how the right skills shape your child\'s future. Date: 28 December 2025.',
   keywords: ['webinar', 'parenting', 'education', 'skills', 'life skills', 'child development', 'India'],
   openGraph: {
     title: 'SKILLVERSE Webinar - India\'s First Skill-Focused Awareness Webinar for Parents',
@@ -46,7 +46,7 @@ export default function WebinarRegistrationPage() {
                 <span className="text-2xl">📅</span>
                 <div className="text-left">
                   <p className="text-xs text-white/70">Date</p>
-                  <p className="font-semibold">29 December 2025</p>
+                  <p className="font-semibold">28 December 2025</p>
                 </div>
               </div>
               

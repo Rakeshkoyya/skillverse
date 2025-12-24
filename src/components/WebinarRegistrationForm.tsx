@@ -188,7 +188,7 @@ export default function WebinarRegistrationForm() {
           
           <div className="bg-white rounded-xl p-6 mb-6 text-left">
             <p className="text-gray-700 mb-4">
-              On <strong>29th December 2025</strong>, you will discover why marks are no longer enough, 
+              On <strong>28th December 2025</strong>, you will discover why marks are no longer enough, 
               and how the right <span className="text-[#1e3a5f] font-semibold">skills</span>, 
               <span className="text-[#1e3a5f] font-semibold"> mindset</span>, and 
               <span className="text-[#1e3a5f] font-semibold"> habits</span> shape your child's 
@@ -204,7 +204,7 @@ export default function WebinarRegistrationForm() {
           </div>
           
           <p className="text-sm text-gray-500">
-            Make sure to save the date: <strong>29th December 2025</strong>
+            Make sure to save the date: <strong>28th December 2025</strong>
           </p>
         </div>
       </div>
@@ -255,7 +255,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-base font-bold text-gray-800 mb-2">
                 Parent's Full Name *
               </label>
               <input
@@ -270,7 +270,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-base font-bold text-gray-800 mb-2">
                 Mobile Number (WhatsApp preferred) *
               </label>
               <input
@@ -286,7 +286,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-base font-bold text-gray-800 mb-2">
                 Email ID *
               </label>
               <input
@@ -302,7 +302,7 @@ export default function WebinarRegistrationForm() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-base font-bold text-gray-800 mb-2">
                   City / Town *
                 </label>
                 <input
@@ -317,7 +317,7 @@ export default function WebinarRegistrationForm() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-base font-bold text-gray-800 mb-2">
                   State *
                 </label>
                 <select
@@ -346,7 +346,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 How many children do you have? *
               </label>
               <div className="space-y-2">
@@ -367,7 +367,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 Child's Age Group (Select the most relevant) *
               </label>
               <div className="space-y-2">
@@ -388,7 +388,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 Current Education Stage of Your Child *
               </label>
               <div className="space-y-2">
@@ -427,9 +427,9 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 Which of these concerns worry you MOST about your child? *
-                <span className="text-gray-500 font-normal"> (Select all that apply)</span>
+                <span className="text-gray-500 font-normal text-sm"> (Select all that apply)</span>
               </label>
               <div className="space-y-2">
                 {PARENT_CONCERNS.map(concern => (
@@ -447,7 +447,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 Do you feel today's school/college system is preparing children for real life? *
               </label>
               <div className="space-y-2">
@@ -478,7 +478,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 Before today, were you aware of "Life Skills / Human Skills" education that focuses on mindset, emotions, and real-life readiness? *
               </label>
               <div className="space-y-2">
@@ -503,9 +503,9 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 Which skills do you feel your child urgently needs? *
-                <span className="text-gray-500 font-normal"> (Select all that apply)</span>
+                <span className="text-gray-500 font-normal text-sm"> (Select all that apply)</span>
               </label>
               <div className="space-y-2">
                 {SKILLS_NEEDED.map(skill => (
@@ -533,7 +533,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 Are you the decision-maker for your child's education and development? *
               </label>
               <div className="space-y-2">
@@ -554,7 +554,7 @@ export default function WebinarRegistrationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-3">
+              <label className="block text-base font-bold text-gray-800 mb-3">
                 If you find real value, are you open to enrolling your child in a structured skill program? *
               </label>
               <div className="space-y-2">
