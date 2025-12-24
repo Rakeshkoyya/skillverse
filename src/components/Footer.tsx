@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -23,11 +24,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           {/* Brand Column */}
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-[#0B7272] font-bold text-xl">S</span>
-              </div>
-              <span className="text-2xl font-bold">Skillverse</span>
+            
+            <Link href="/" className="flex items-center mb-4">
+              <Image
+                src="/logo-dark.png"
+                alt="Skillverse Logo"
+                width={150}
+                height={40}
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-gray-300 max-w-md mb-6">
               Revolutionizing India&apos;s education landscape by building a nationwide movement to unlock human potential in every corner of India.
