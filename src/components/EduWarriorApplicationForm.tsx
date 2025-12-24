@@ -88,7 +88,7 @@ export default function EduWarriorApplicationForm() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
               placeholder="Your full name"
             />
           </div>
@@ -104,7 +104,7 @@ export default function EduWarriorApplicationForm() {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
               placeholder="your.email@example.com"
             />
           </div>
@@ -128,7 +128,7 @@ export default function EduWarriorApplicationForm() {
                 required
                 maxLength={10}
                 pattern="[0-9]{10}"
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-r-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-r-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="9876543210"
               />
             </div>
@@ -146,7 +146,7 @@ export default function EduWarriorApplicationForm() {
               value={formData.city}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
               placeholder="Your city"
             />
           </div>
@@ -162,7 +162,7 @@ export default function EduWarriorApplicationForm() {
             value={formData.education}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition bg-white"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition bg-white"
           >
             <option value="">Select your education level</option>
             <option value="12th">12th Pass</option>
@@ -182,7 +182,7 @@ export default function EduWarriorApplicationForm() {
             value={formData.expertise}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition bg-white"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition bg-white"
           >
             <option value="">Select expertise area</option>
             <option value="education">Education</option>
@@ -205,7 +205,7 @@ export default function EduWarriorApplicationForm() {
             value={formData.experience}
             onChange={handleChange}
             rows={3}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition resize-none"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition resize-none"
             placeholder="Teaching, training, community work, or any other relevant experience..."
           />
         </div>
@@ -221,7 +221,7 @@ export default function EduWarriorApplicationForm() {
             onChange={handleChange}
             required
             rows={4}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition resize-none"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition resize-none"
             placeholder="Tell us what drives you to join this movement..."
           />
         </div>
@@ -236,7 +236,7 @@ export default function EduWarriorApplicationForm() {
             value={formData.availability}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition bg-white"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition bg-white"
           >
             <option value="">Select availability</option>
             <option value="immediately">Immediately</option>
@@ -250,7 +250,7 @@ export default function EduWarriorApplicationForm() {
       <button
         type="submit"
         disabled={status === 'loading'}
-        className="w-full px-6 py-4 bg-gradient-to-r from-[#1e3a5f] to-[#2a4a73] text-white font-semibold text-lg rounded-lg hover:shadow-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full px-6 py-4 bg-gradient-to-r from-[#0B7272] to-[#0E8A8A] text-white font-semibold text-lg rounded-lg hover:shadow-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === 'loading' ? 'Submitting Application...' : 'Submit Application'}
       </button>

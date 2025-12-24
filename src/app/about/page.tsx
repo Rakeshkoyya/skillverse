@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-32 bg-gradient-to-br from-[#1e3a5f] to-[#2a4a73] text-white overflow-hidden">
+      <section className="relative py-20 md:py-32 bg-gradient-to-br from-[#0B7272] to-[#0E8A8A] text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <circle cx="20" cy="20" r="40" fill="white" />
@@ -33,7 +33,7 @@ export default function AboutPage() {
       <Section>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
               The Broken System
             </h2>
             <div className="space-y-4 text-lg text-gray-600">
@@ -51,15 +51,15 @@ export default function AboutPage() {
           <div className="bg-gray-50 rounded-3xl p-8 md:p-12">
             <div className="space-y-8">
               <div className="border-l-4 border-red-500 pl-6">
-                <div className="text-4xl font-bold text-[#1e3a5f]">67%</div>
+                <div className="text-4xl font-bold text-[#0B7272]">67%</div>
                 <div className="text-gray-600">of graduates are unemployable</div>
               </div>
               <div className="border-l-4 border-red-500 pl-6">
-                <div className="text-4xl font-bold text-[#1e3a5f]">85%</div>
+                <div className="text-4xl font-bold text-[#0B7272]">85%</div>
                 <div className="text-gray-600">lack basic soft skills</div>
               </div>
               <div className="border-l-4 border-red-500 pl-6">
-                <div className="text-4xl font-bold text-[#1e3a5f]">90%</div>
+                <div className="text-4xl font-bold text-[#0B7272]">90%</div>
                 <div className="text-gray-600">feel unprepared for real world</div>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function AboutPage() {
       {/* The Dual-Sided Market Gap */}
       <Section background="light">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
             The Dual-Sided Market Gap
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-[#1e3a5f] mb-4">The Supply Side Crisis</h3>
+            <h3 className="text-2xl font-bold text-[#0B7272] mb-4">The Supply Side Crisis</h3>
             <p className="text-gray-600 mb-4">
               <strong>2 crore+ unemployed graduates</strong> with degrees but no direction. They invested years in education that didn&apos;t prepare them for the workforce. They need income, purpose, and a path forward.
             </p>
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-[#1e3a5f] mb-4">The Demand Side Crisis</h3>
+            <h3 className="text-2xl font-bold text-[#0B7272] mb-4">The Demand Side Crisis</h3>
             <p className="text-gray-600 mb-4">
               <strong>29 crore+ students</strong> trapped in the same broken system. They&apos;re learning what to think, not how to think. Their potential is being capped by outdated methods.
             </p>
@@ -136,7 +136,7 @@ export default function AboutPage() {
       {/* Why Skillverse Must Exist Now */}
       <Section>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-8">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-8">
             Why Skillverse Must Exist Now
           </h2>
           <div className="space-y-6 text-lg text-gray-600 text-left">
@@ -144,13 +144,13 @@ export default function AboutPage() {
               The convergence of these two crises isn&apos;t a problem — it&apos;s an opportunity. An opportunity to build something that has never existed before: a decentralized education infrastructure that solves both sides of the market simultaneously.
             </p>
             <p>
-              <strong className="text-[#1e3a5f]">Technology has made this possible.</strong> Video-led learning means we don&apos;t need to find or train millions of teachers. We can deliver consistent, high-quality education at scale.
+              <strong className="text-[#0B7272]">Technology has made this possible.</strong> Video-led learning means we don&apos;t need to find or train millions of teachers. We can deliver consistent, high-quality education at scale.
             </p>
             <p>
-              <strong className="text-[#1e3a5f]">Economics have aligned.</strong> The micro-franchise model means we can expand rapidly without massive capital investment. Every EduWarrior becomes an entrepreneur, not an employee.
+              <strong className="text-[#0B7272]">Economics have aligned.</strong> The micro-franchise model means we can expand rapidly without massive capital investment. Every EduWarrior becomes an entrepreneur, not an employee.
             </p>
             <p>
-              <strong className="text-[#1e3a5f]">The need is urgent.</strong> Every year we wait, another generation of students misses out on transformation. Every day we delay, more graduates lose hope.
+              <strong className="text-[#0B7272]">The need is urgent.</strong> Every year we wait, another generation of students misses out on transformation. Every day we delay, more graduates lose hope.
             </p>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function AboutPage() {
       <Section>
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
               The Mission: Transform Every Student in India
             </h2>
           </div>
@@ -236,7 +236,7 @@ export default function AboutPage() {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start">
-                <div className="w-8 h-8 bg-[#1e3a5f] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 bg-[#0B7272] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -244,7 +244,7 @@ export default function AboutPage() {
                 <p className="ml-4 text-gray-600">Build confidence before competence</p>
               </div>
               <div className="flex items-start">
-                <div className="w-8 h-8 bg-[#1e3a5f] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 bg-[#0B7272] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -252,7 +252,7 @@ export default function AboutPage() {
                 <p className="ml-4 text-gray-600">Develop character alongside knowledge</p>
               </div>
               <div className="flex items-start">
-                <div className="w-8 h-8 bg-[#1e3a5f] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 bg-[#0B7272] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -260,7 +260,7 @@ export default function AboutPage() {
                 <p className="ml-4 text-gray-600">Create leaders, not followers</p>
               </div>
               <div className="flex items-start">
-                <div className="w-8 h-8 bg-[#1e3a5f] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 bg-[#0B7272] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>

@@ -14,7 +14,7 @@ export default function ContactFormTabs() {
             type="button"
             className={`px-6 py-2 text-sm font-medium rounded-md transition ${
               activeTab === 'webinar'
-                ? 'bg-[#1e3a5f] text-white'
+                ? 'bg-[#0B7272] text-white'
                 : 'bg-transparent text-gray-700'
             }`}
             onClick={() => setActiveTab('webinar')}
@@ -25,7 +25,7 @@ export default function ContactFormTabs() {
             type="button"
             className={`px-6 py-2 text-sm font-medium rounded-md transition ${
               activeTab === 'subscribe'
-                ? 'bg-[#1e3a5f] text-white'
+                ? 'bg-[#0B7272] text-white'
                 : 'bg-transparent text-gray-700'
             }`}
             onClick={() => setActiveTab('subscribe')}

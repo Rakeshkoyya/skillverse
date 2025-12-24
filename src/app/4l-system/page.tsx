@@ -89,7 +89,7 @@ export default function FourLSystemPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-32 bg-gradient-to-br from-[#1e3a5f] to-[#2a4a73] text-white overflow-hidden">
+      <section className="relative py-20 md:py-32 bg-gradient-to-br from-[#0B7272] to-[#0E8A8A] text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <text x="10" y="30" fontSize="20" fill="white" fontWeight="bold">4L</text>
@@ -117,7 +117,7 @@ export default function FourLSystemPage() {
       {/* Overview */}
       <Section>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0B7272] mb-6">
             Beyond Academics, Beyond Skills
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -132,7 +132,7 @@ export default function FourLSystemPage() {
               <div className={`w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-r ${pillar.color} flex items-center justify-center text-white text-2xl font-bold group-hover:scale-110 transition-transform duration-300`}>
                 {pillar.title[0]}
               </div>
-              <h3 className="text-xl font-bold text-[#1e3a5f] mb-1">{pillar.title}</h3>
+              <h3 className="text-xl font-bold text-[#0B7272] mb-1">{pillar.title}</h3>
               <p className="text-sm text-gray-500">{pillar.subtitle}</p>
             </Card>
           ))}
@@ -147,7 +147,7 @@ export default function FourLSystemPage() {
               <div className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-medium mb-4 ${pillar.bgColor} ${pillar.borderColor} border`}>
                 Pillar {index + 1}
               </div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-2">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-2">
                 {pillar.title}
               </h2>
               <p className="text-xl text-gray-500 mb-6">{pillar.subtitle}</p>
@@ -177,7 +177,7 @@ export default function FourLSystemPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                     </svg>
                   </div>
-                  <h3 className="ml-4 text-xl font-bold text-[#1e3a5f]">Sample Exercise</h3>
+                  <h3 className="ml-4 text-xl font-bold text-[#0B7272]">Sample Exercise</h3>
                 </div>
                 <h4 className="text-lg font-semibold text-gray-800 mb-2">{pillar.exercise.title}</h4>
                 <p className="text-gray-600">{pillar.exercise.description}</p>
@@ -187,11 +187,11 @@ export default function FourLSystemPage() {
               <div className="mt-6 bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-[#1e3a5f]">15</div>
+                    <div className="text-3xl font-bold text-[#0B7272]">15</div>
                     <div className="text-sm text-gray-500">minutes/day</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-[#1e3a5f]">90</div>
+                    <div className="text-3xl font-bold text-[#0B7272]">90</div>
                     <div className="text-sm text-gray-500">days to transform</div>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ export default function FourLSystemPage() {
                   </div>
                 </div>
                 <div className="absolute left-4 md:left-1/2 w-8 h-8 bg-white rounded-full transform md:-translate-x-1/2 flex items-center justify-center">
-                  <div className="w-4 h-4 bg-[#1e3a5f] rounded-full"></div>
+                  <div className="w-4 h-4 bg-[#0B7272] rounded-full"></div>
                 </div>
                 <div className="hidden md:block flex-1"></div>
               </div>
@@ -249,7 +249,7 @@ export default function FourLSystemPage() {
       {/* CTA Section */}
       <Section>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
             See the 4L System in Action
           </h2>
           <p className="text-xl text-gray-600 mb-8">

@@ -20,7 +20,7 @@ export default function Section({
   const backgrounds = {
     white: 'bg-white',
     light: 'bg-gray-50',
-    dark: 'bg-[#1e3a5f] text-white',
+    dark: 'bg-[#0B7272] text-white',
   };
 
   const titleColor = background === 'dark' ? 'text-white' : 'text-gray-900';

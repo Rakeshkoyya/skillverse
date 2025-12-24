@@ -10,7 +10,7 @@ export default function EduWarriorPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-32 bg-gradient-to-br from-[#1e3a5f] to-[#2a4a73] text-white overflow-hidden">
+      <section className="relative py-20 md:py-32 bg-gradient-to-br from-[#0B7272] to-[#0E8A8A] text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <circle cx="80" cy="20" r="25" fill="white" />
@@ -57,7 +57,7 @@ export default function EduWarriorPage() {
       <Section background="light">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
               Who is an EduWarrior?
             </h2>
             <p className="text-xl text-gray-600 mb-6">
@@ -73,7 +73,7 @@ export default function EduWarriorPage() {
             </div>
           </div>
           <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
-            <h3 className="text-xl font-bold text-[#1e3a5f] mb-6">The Ideal EduWarrior</h3>
+            <h3 className="text-xl font-bold text-[#0B7272] mb-6">The Ideal EduWarrior</h3>
             <div className="space-y-4">
               {[
                 { trait: 'Graduate from any discipline', icon: '🎓' },
@@ -96,7 +96,7 @@ export default function EduWarriorPage() {
       {/* The Skill Lab */}
       <Section>
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
             The Skill Lab: Your 600 sq ft Impact Center
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -135,10 +135,10 @@ export default function EduWarriorPage() {
             },
           ].map((item, index) => (
             <Card key={index} className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-[#1e3a5f]/10 rounded-2xl flex items-center justify-center text-[#1e3a5f]">
+              <div className="w-16 h-16 mx-auto mb-4 bg-[#0B7272]/10 rounded-2xl flex items-center justify-center text-[#0B7272]">
                 {item.icon}
               </div>
-              <h3 className="text-xl font-bold text-[#1e3a5f] mb-2">{item.title}</h3>
+              <h3 className="text-xl font-bold text-[#0B7272] mb-2">{item.title}</h3>
               <p className="text-gray-600">{item.description}</p>
             </Card>
           ))}
@@ -147,7 +147,7 @@ export default function EduWarriorPage() {
         <div className="mt-12 bg-gray-50 rounded-3xl p-8 md:p-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-[#1e3a5f] mb-4">Sample Daily Schedule</h3>
+              <h3 className="text-2xl font-bold text-[#0B7272] mb-4">Sample Daily Schedule</h3>
               <div className="space-y-3">
                 {[
                   { time: '7:00 - 8:00 AM', batch: 'Morning Batch 1' },
@@ -164,9 +164,9 @@ export default function EduWarriorPage() {
               </div>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#1e3a5f]">100+</div>
+              <div className="text-5xl font-bold text-[#0B7272]">100+</div>
               <div className="text-gray-600 mt-2">Students per month capacity</div>
-              <div className="mt-6 text-5xl font-bold text-[#1e3a5f]">5</div>
+              <div className="mt-6 text-5xl font-bold text-[#0B7272]">5</div>
               <div className="text-gray-600 mt-2">Batches per day</div>
             </div>
           </div>
@@ -178,13 +178,13 @@ export default function EduWarriorPage() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
-              <div className="aspect-video bg-[#1e3a5f]/10 rounded-xl flex items-center justify-center mb-6">
+              <div className="aspect-video bg-[#0B7272]/10 rounded-xl flex items-center justify-center mb-6">
                 <div className="text-center">
-                  <svg className="w-16 h-16 text-[#1e3a5f] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-16 h-16 text-[#0B7272] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <p className="text-[#1e3a5f] font-medium mt-2">4L System Videos</p>
+                  <p className="text-[#0B7272] font-medium mt-2">4L System Videos</p>
                 </div>
               </div>
               <div className="space-y-3">
@@ -210,7 +210,7 @@ export default function EduWarriorPage() {
             </div>
           </div>
           <div className="order-1 lg:order-2">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
               Video-Led, Zero Teaching Required
             </h2>
             <p className="text-xl text-gray-600 mb-6">
@@ -235,7 +235,7 @@ export default function EduWarriorPage() {
       <Section>
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
               A Sustainable Business Model
             </h2>
             <p className="text-xl text-gray-600">
@@ -244,7 +244,7 @@ export default function EduWarriorPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-[#1e3a5f] to-[#2a4a73] text-white rounded-3xl p-8">
+            <div className="bg-gradient-to-br from-[#0B7272] to-[#0E8A8A] text-white rounded-3xl p-8">
               <h3 className="text-xl font-bold mb-6">Investment Overview</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center border-b border-white/20 pb-3">
@@ -270,7 +270,7 @@ export default function EduWarriorPage() {
             </div>
 
             <div className="bg-gray-50 rounded-3xl p-8">
-              <h3 className="text-xl font-bold text-[#1e3a5f] mb-6">What Skillverse Provides</h3>
+              <h3 className="text-xl font-bold text-[#0B7272] mb-6">What Skillverse Provides</h3>
               <div className="space-y-3">
                 {[
                   'Complete curriculum & video content',
@@ -281,7 +281,7 @@ export default function EduWarriorPage() {
                   'Community of EduWarriors',
                 ].map((item, index) => (
                   <div key={index} className="flex items-center">
-                    <div className="w-6 h-6 bg-[#1e3a5f] rounded-full flex items-center justify-center mr-3">
+                    <div className="w-6 h-6 bg-[#0B7272] rounded-full flex items-center justify-center mr-3">
                       <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
@@ -344,7 +344,7 @@ export default function EduWarriorPage() {
       <Section background="light">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
               Express Your Interest
             </h2>
             <p className="text-xl text-gray-600">
@@ -361,7 +361,7 @@ export default function EduWarriorPage() {
       {/* Alternative CTA Section */}
       <Section>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B7272] mb-6">
             Want to Learn More First?
           </h2>
           <p className="text-xl text-gray-600 mb-8">

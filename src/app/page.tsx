@@ -4,10 +4,10 @@ import { Section, Button, Card, CardIcon, CardTitle, CardDescription, SubscribeS
 
 function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-gray-900 via-[#1e3a5f] to-gray-900">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-gray-900 via-[#0B7272] to-gray-900">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-red-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#1e3a5f]/30 rounded-full blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#0B7272]/30 rounded-full blur-3xl" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
@@ -137,7 +137,7 @@ function ProblemSection() {
     >
       <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
         {problems.map((problem, index) => (
-          <Card key={index} className="border-l-4 border-[#1e3a5f]">
+          <Card key={index} className="border-l-4 border-[#0B7272]">
             <CardIcon>{problem.icon}</CardIcon>
             <CardTitle>{problem.title}</CardTitle>
             <CardDescription>{problem.description}</CardDescription>
@@ -182,7 +182,7 @@ function SolutionSection() {
           
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
             We Don&apos;t Just Teach Subjects.<br />
-            <span className="text-[#1e3a5f]">We Build Complete Human Beings.</span>
+            <span className="text-[#0B7272]">We Build Complete Human Beings.</span>
           </h3>
           
           <p className="text-gray-600 mb-6 text-lg">
@@ -191,8 +191,8 @@ function SolutionSection() {
             not just marks and memorization.
           </p>
 
-          <div className="bg-[#1e3a5f]/5 rounded-xl p-6 mb-6">
-            <p className="text-[#1e3a5f] font-semibold mb-2">💡 Our Philosophy</p>
+          <div className="bg-[#0B7272]/5 rounded-xl p-6 mb-6">
+            <p className="text-[#0B7272] font-semibold mb-2">💡 Our Philosophy</p>
             <p className="text-gray-700 italic">
               &quot;A student who knows how to handle failure will never truly fail. 
               A student who knows their purpose will never lose direction.&quot;
@@ -205,7 +205,7 @@ function SolutionSection() {
         <div>
           <div className="grid grid-cols-2 gap-4">
             {whatWeTeach.map((item, index) => (
-              <div key={index} className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-[#1e3a5f]/20 transition-all">
+              <div key={index} className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-[#0B7272]/20 transition-all">
                 <span className="text-3xl block mb-3">{item.icon}</span>
                 <h4 className="font-semibold text-gray-900 mb-1 text-sm">{item.title}</h4>
                 <p className="text-gray-500 text-xs">{item.desc}</p>
@@ -263,7 +263,7 @@ function FourLSection() {
               <span className="text-2xl font-bold text-white">{pillar.letter}</span>
             </div>
             <h3 className="text-xl font-bold text-white mb-1">{pillar.title}</h3>
-            <p className="text-[#1e3a5f]/70 text-sm mb-3">{pillar.subtitle}</p>
+            <p className="text-[#0B7272]/70 text-sm mb-3">{pillar.subtitle}</p>
             <p className="text-white/80 text-sm">{pillar.description}</p>
           </div>
         ))}
@@ -312,8 +312,8 @@ function EduWarriorSection() {
             The EduWarrior franchise model empowers passionate educators and entrepreneurs to bring world-class skill development to their communities. With comprehensive training, proven systems, and continuous support, you can build a thriving education business.
           </p>
 
-          <div className="bg-[#1e3a5f]/5 rounded-xl p-6 mb-6">
-            <p className="text-[#1e3a5f] font-semibold mb-2">Limited Territories Available</p>
+          <div className="bg-[#0B7272]/5 rounded-xl p-6 mb-6">
+            <p className="text-[#0B7272] font-semibold mb-2">Limited Territories Available</p>
             <p className="text-gray-600 text-sm">
               We&apos;re selectively partnering with committed individuals who share our vision. Early partners get exclusive territorial rights.
             </p>
@@ -358,7 +358,7 @@ function TestimonialsSection() {
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white font-semibold">
+              <div className="w-12 h-12 bg-[#0B7272] rounded-full flex items-center justify-center text-white font-semibold">
                 {testimonial.avatar}
               </div>
               <div>

@@ -189,9 +189,9 @@ export default function WebinarRegistrationForm() {
           <div className="bg-white rounded-xl p-6 mb-6 text-left">
             <p className="text-gray-700 mb-4">
               On <strong>28th December 2025</strong>, you will discover why marks are no longer enough, 
-              and how the right <span className="text-[#1e3a5f] font-semibold">skills</span>, 
-              <span className="text-[#1e3a5f] font-semibold"> mindset</span>, and 
-              <span className="text-[#1e3a5f] font-semibold"> habits</span> shape your child's 
+              and how the right <span className="text-[#0B7272] font-semibold">skills</span>, 
+              <span className="text-[#0B7272] font-semibold"> mindset</span>, and 
+              <span className="text-[#0B7272] font-semibold"> habits</span> shape your child's 
               confidence, clarity, and future direction.
             </p>
             
@@ -229,7 +229,7 @@ export default function WebinarRegistrationForm() {
               key={index}
               className={`text-xs md:text-sm font-medium ${
                 currentSection > index + 1 ? 'text-green-600' : 
-                currentSection === index + 1 ? 'text-[#1e3a5f]' : 'text-gray-400'
+                currentSection === index + 1 ? 'text-[#0B7272]' : 'text-gray-400'
               }`}
             >
               <span className="hidden md:inline">{title}</span>
@@ -239,7 +239,7 @@ export default function WebinarRegistrationForm() {
         </div>
         <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
           <div 
-            className="h-full bg-gradient-to-r from-[#1e3a5f] to-[#2a4a73] transition-all duration-500"
+            className="h-full bg-gradient-to-r from-[#0B7272] to-[#0E8A8A] transition-all duration-500"
             style={{ width: `${(currentSection / 5) * 100}%` }}
           />
         </div>
@@ -264,7 +264,7 @@ export default function WebinarRegistrationForm() {
                 value={formData.parentName}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="Enter your full name"
               />
             </div>
@@ -280,7 +280,7 @@ export default function WebinarRegistrationForm() {
                 onChange={handleChange}
                 required
                 maxLength={10}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="Enter 10-digit mobile number"
               />
             </div>
@@ -295,7 +295,7 @@ export default function WebinarRegistrationForm() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="Enter your email address"
               />
             </div>
@@ -311,7 +311,7 @@ export default function WebinarRegistrationForm() {
                   value={formData.city}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                   placeholder="Your city"
                 />
               </div>
@@ -325,7 +325,7 @@ export default function WebinarRegistrationForm() {
                   value={formData.state}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition bg-white"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition bg-white"
                 >
                   <option value="">Select your state</option>
                   {INDIAN_STATES.map(state => (
@@ -358,7 +358,7 @@ export default function WebinarRegistrationForm() {
                       value={option}
                       checked={formData.numberOfChildren === option}
                       onChange={handleChange}
-                      className="w-4 h-4 text-[#1e3a5f]"
+                      className="w-4 h-4 text-[#0B7272]"
                     />
                     <span className="ml-3">{option}</span>
                   </label>
@@ -379,7 +379,7 @@ export default function WebinarRegistrationForm() {
                       value={option}
                       checked={formData.childAgeGroup === option}
                       onChange={handleChange}
-                      className="w-4 h-4 text-[#1e3a5f]"
+                      className="w-4 h-4 text-[#0B7272]"
                     />
                     <span className="ml-3">{option}</span>
                   </label>
@@ -406,7 +406,7 @@ export default function WebinarRegistrationForm() {
                       value={option}
                       checked={formData.educationStage === option}
                       onChange={handleChange}
-                      className="w-4 h-4 text-[#1e3a5f]"
+                      className="w-4 h-4 text-[#0B7272]"
                     />
                     <span className="ml-3">{option}</span>
                   </label>
@@ -438,7 +438,7 @@ export default function WebinarRegistrationForm() {
                       type="checkbox"
                       checked={formData.parentConcerns.includes(concern)}
                       onChange={() => handleCheckboxArrayChange('parentConcerns', concern)}
-                      className="w-4 h-4 text-[#1e3a5f] rounded"
+                      className="w-4 h-4 text-[#0B7272] rounded"
                     />
                     <span className="ml-3">{concern}</span>
                   </label>
@@ -459,7 +459,7 @@ export default function WebinarRegistrationForm() {
                       value={option}
                       checked={formData.schoolSystemOpinion === option}
                       onChange={handleChange}
-                      className="w-4 h-4 text-[#1e3a5f]"
+                      className="w-4 h-4 text-[#0B7272]"
                     />
                     <span className="ml-3">{option}</span>
                   </label>
@@ -494,7 +494,7 @@ export default function WebinarRegistrationForm() {
                       value={option}
                       checked={formData.lifeSkillsAwareness === option}
                       onChange={handleChange}
-                      className="w-4 h-4 text-[#1e3a5f]"
+                      className="w-4 h-4 text-[#0B7272]"
                     />
                     <span className="ml-3">{option}</span>
                   </label>
@@ -514,7 +514,7 @@ export default function WebinarRegistrationForm() {
                       type="checkbox"
                       checked={formData.skillsNeeded.includes(skill)}
                       onChange={() => handleCheckboxArrayChange('skillsNeeded', skill)}
-                      className="w-4 h-4 text-[#1e3a5f] rounded"
+                      className="w-4 h-4 text-[#0B7272] rounded"
                     />
                     <span className="ml-3">{skill}</span>
                   </label>
@@ -545,7 +545,7 @@ export default function WebinarRegistrationForm() {
                       value={option}
                       checked={formData.isDecisionMaker === option}
                       onChange={handleChange}
-                      className="w-4 h-4 text-[#1e3a5f]"
+                      className="w-4 h-4 text-[#0B7272]"
                     />
                     <span className="ml-3">{option}</span>
                   </label>
@@ -566,7 +566,7 @@ export default function WebinarRegistrationForm() {
                       value={option}
                       checked={formData.enrollmentReadiness === option}
                       onChange={handleChange}
-                      className="w-4 h-4 text-[#1e3a5f]"
+                      className="w-4 h-4 text-[#0B7272]"
                     />
                     <span className="ml-3">{option}</span>
                   </label>
@@ -581,7 +581,7 @@ export default function WebinarRegistrationForm() {
                   name="consent"
                   checked={formData.consent}
                   onChange={handleChange}
-                  className="w-5 h-5 text-[#1e3a5f] rounded mt-0.5"
+                  className="w-5 h-5 text-[#0B7272] rounded mt-0.5"
                 />
                 <span className="ml-3 text-sm text-gray-700">
                   I agree to receive webinar updates and learning-related communication from SKILLVERSE via WhatsApp/Email.
@@ -617,7 +617,7 @@ export default function WebinarRegistrationForm() {
             <button
               type="button"
               onClick={nextSection}
-              className="px-8 py-3 bg-[#1e3a5f] text-white rounded-lg hover:bg-[#152a45] font-medium transition"
+              className="px-8 py-3 bg-[#0B7272] text-white rounded-lg hover:bg-[#182423] font-medium transition"
             >
               Next →
             </button>

@@ -114,7 +114,7 @@ export default function AdminDashboard() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#1e3a5f] mx-auto"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#0B7272] mx-auto"></div>
           <p className="mt-4 text-gray-600">Loading dashboard...</p>
         </div>
       </div>
@@ -137,7 +137,7 @@ export default function AdminDashboard() {
                 onClick={() => setActiveTab('subscriptions')}
                 className={`py-4 px-6 text-sm font-medium ${
                   activeTab === 'subscriptions'
-                    ? 'border-b-2 border-[#1e3a5f] text-[#1e3a5f]'
+                    ? 'border-b-2 border-[#0B7272] text-[#0B7272]'
                     : 'text-gray-500 hover:text-gray-700'
                 }`}
               >
@@ -147,7 +147,7 @@ export default function AdminDashboard() {
                 onClick={() => setActiveTab('eduwarriors')}
                 className={`py-4 px-6 text-sm font-medium ${
                   activeTab === 'eduwarriors'
-                    ? 'border-b-2 border-[#1e3a5f] text-[#1e3a5f]'
+                    ? 'border-b-2 border-[#0B7272] text-[#0B7272]'
                     : 'text-gray-500 hover:text-gray-700'
                 }`}
               >
@@ -164,7 +164,7 @@ export default function AdminDashboard() {
               <h2 className="text-xl font-semibold">Newsletter Subscriptions</h2>
               <button
                 onClick={() => exportToCSV(subscriptions, 'subscriptions.csv')}
-                className="px-4 py-2 bg-[#1e3a5f] text-white rounded-lg hover:bg-[#2a4a73] transition"
+                className="px-4 py-2 bg-[#0B7272] text-white rounded-lg hover:bg-[#0E8A8A] transition"
               >
                 Export CSV
               </button>
@@ -216,7 +216,7 @@ export default function AdminDashboard() {
               <h2 className="text-xl font-semibold">EduWarrior Applications</h2>
               <button
                 onClick={() => exportToCSV(applications, 'eduwarrior-applications.csv')}
-                className="px-4 py-2 bg-[#1e3a5f] text-white rounded-lg hover:bg-[#2a4a73] transition"
+                className="px-4 py-2 bg-[#0B7272] text-white rounded-lg hover:bg-[#0E8A8A] transition"
               >
                 Export CSV
               </button>

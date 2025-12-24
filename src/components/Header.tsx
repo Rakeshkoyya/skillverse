@@ -20,10 +20,10 @@ export default function Header() {
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-[#1e3a5f] rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-[#0B7272] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">S</span>
             </div>
-            <span className="text-xl md:text-2xl font-bold text-[#1e3a5f]">Skillverse</span>
+            <span className="text-xl md:text-2xl font-bold text-[#0B7272]">Skillverse</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -32,14 +32,14 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-[#1e3a5f] font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-[#0B7272] font-medium transition-colors duration-200"
               >
                 {link.label}
               </Link>
             ))}
             <Link
               href="/contact#webinar"
-              className="bg-[#1e3a5f] text-white px-5 py-2.5 rounded-lg font-medium hover:bg-[#152a45] transition-colors duration-200"
+              className="bg-[#0B7272] text-white px-5 py-2.5 rounded-lg font-medium hover:bg-[#182423] transition-colors duration-200"
             >
               Join Webinar
             </Link>
@@ -85,7 +85,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="text-gray-700 hover:text-[#1e3a5f] font-medium transition-colors duration-200 py-2"
+                  className="text-gray-700 hover:text-[#0B7272] font-medium transition-colors duration-200 py-2"
                 >
                   {link.label}
                 </Link>
@@ -93,7 +93,7 @@ export default function Header() {
               <Link
                 href="/contact#webinar"
                 onClick={() => setIsMenuOpen(false)}
-                className="bg-[#1e3a5f] text-white px-5 py-3 rounded-lg font-medium text-center hover:bg-[#152a45] transition-colors duration-200"
+                className="bg-[#0B7272] text-white px-5 py-3 rounded-lg font-medium text-center hover:bg-[#182423] transition-colors duration-200"
               >
                 Join Webinar
               </Link>

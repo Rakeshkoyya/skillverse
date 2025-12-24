@@ -66,7 +66,7 @@ export default function SubscribeSection() {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-6 py-3 bg-white text-[#1e3a5f] font-semibold rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="px-6 py-3 bg-white text-[#0B7272] font-semibold rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
           </button>

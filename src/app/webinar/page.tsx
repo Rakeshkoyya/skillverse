@@ -16,7 +16,7 @@ export default function WebinarRegistrationPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#1e3a5f] via-[#2a4a73] to-[#1e3a5f] text-white py-16 md:py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#0B7272] via-[#0E8A8A] to-[#0B7272] text-white py-16 md:py-20 overflow-hidden">
         {/* Background decorations */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-10 left-10 w-64 h-64 bg-white/5 rounded-full blur-3xl" />

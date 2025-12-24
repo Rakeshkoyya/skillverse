@@ -73,7 +73,7 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition text-lg"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition text-lg"
             placeholder="Enter your email address"
           />
         </div>
@@ -92,7 +92,7 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="John Doe"
               />
             </div>
@@ -108,7 +108,7 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="john@example.com"
               />
             </div>
@@ -125,7 +125,7 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
                 name="mobile"
                 value={formData.mobile}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="+91 98765 43210"
               />
             </div>
@@ -141,7 +141,7 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
                 value={formData.city}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition"
                 placeholder="Mumbai"
               />
             </div>
@@ -157,7 +157,7 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
               value={formData.role}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition bg-white"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition bg-white"
             >
               <option value="">Select your role</option>
               <option value="parent">Parent</option>
@@ -179,7 +179,7 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
               value={formData.message}
               onChange={handleChange}
               rows={3}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition resize-none"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B7272] focus:border-transparent outline-none transition resize-none"
               placeholder="Any questions or specific topics you'd like us to cover?"
             />
           </div>
@@ -191,8 +191,8 @@ export default function SubscriptionForm({ type = 'subscribe', className = '' }:
         disabled={status === 'loading'}
         className={`w-full px-6 font-medium rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed ${
           type === 'subscribe'
-            ? 'py-3 text-lg bg-[#1e3a5f] text-white hover:bg-[#2a4a73]'
-            : 'py-3 bg-[#1e3a5f] text-white hover:bg-[#2a4a73]'
+            ? 'py-3 text-lg bg-[#0B7272] text-white hover:bg-[#0E8A8A]'
+            : 'py-3 bg-[#0B7272] text-white hover:bg-[#0E8A8A]'
         }`}
       >
         {status === 'loading' 

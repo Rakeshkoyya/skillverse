@@ -25,9 +25,9 @@ export default function Button({
   const baseStyles = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
   
   const variants = {
-    primary: 'bg-[#1e3a5f] text-white hover:bg-[#152a45] focus:ring-[#1e3a5f]',
-    secondary: 'bg-white text-[#1e3a5f] border-2 border-[#1e3a5f] hover:bg-[#1e3a5f] hover:text-white focus:ring-[#1e3a5f]',
-    outline: 'bg-transparent text-[#1e3a5f] border-2 border-[#1e3a5f] hover:bg-[#1e3a5f]/5 focus:ring-[#1e3a5f]',
+    primary: 'bg-[#0B7272] text-white hover:bg-[#182423] focus:ring-[#0B7272]',
+    secondary: 'bg-white text-[#0B7272] border-2 border-[#0B7272] hover:bg-[#0B7272] hover:text-white focus:ring-[#0B7272]',
+    outline: 'bg-transparent text-[#0B7272] border-2 border-[#0B7272] hover:bg-[#0B7272]/5 focus:ring-[#0B7272]',
   };
 
   const sizes = {
